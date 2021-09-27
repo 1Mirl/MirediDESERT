@@ -129,9 +129,10 @@ footer{
     text-align: center;
 }
 /* déclaration de mediaqueries */
-@media screen and (max-witdh :800px) {
+@media screen and (max-width :800px) {
     .container{
         width: 100%;
+        background-color: pink;
     } /* ici on déclare que notre colonne doit faire toute la largeur de son parent */
     .col-xs-12{
         width: 100%;
